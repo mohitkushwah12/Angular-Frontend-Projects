@@ -1,0 +1,15 @@
+<div *ngIf="user" class="profile-card mat-elevation-z4" [ngClass]="{'animate-profile': animateProfile}">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title class="user-name">{{ user.name }}</mat-card-title>
+        <mat-card-subtitle class="user-email">Email: {{ user.email }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p class="user-role">Role: {{ user.userRole }}</p>
+      </mat-card-content>
+      <!-- <br>
+      <button mat-raised-button color="primary" class="update-button">
+        Update
+    </button> -->
+    </mat-card>
+</div>

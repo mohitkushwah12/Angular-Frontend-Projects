@@ -1,0 +1,46 @@
+.user-name
+{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 35px;
+    color: #01060c;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.user-email {
+    font-size: 18px;
+    color: #01060c;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.user-role {
+    font-size: 18px;
+    color: #01060c;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.profile-card {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+  
+.mat-card {
+    background-color: #f0f0f0;
+}
+  
+.mat-card-header {
+    background-color: #2196f3;
+    color: white;
+}
+  
+.animate-profile {
+    transform: translateY(-20px); /* Example animation, adjust as needed */
+}
+/* Additional styles as needed */
